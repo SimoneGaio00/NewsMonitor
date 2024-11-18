@@ -17,9 +17,9 @@ download('punkt', quiet=True)
 
 class NewsMonitor:
     def __init__(self):
-        self.sender_email = 'simonelucagaio@gmail.com'
-        self.sender_password = 'yfamgilzyihvkqlo'
-        self.recipient_email = 'simone.luca.gaio@iniziativa.cc'
+        self.sender_email = '*************'
+        self.sender_password = '****************'
+        self.recipient_email = '****************'
         self.history_file = 'news_history.json'
         self.headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
